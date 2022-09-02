@@ -1,5 +1,3 @@
 class HomeController < ApplicationController
-    def hom
-        
-    end
+  def hom; end
 end
