@@ -1,24 +1,41 @@
-# README
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# Blog App
 
-Things you may want to cover:
+The Blog app is a website that will show the list of posts and empower readers to interact with them by adding comments and liking posts.
 
-* Ruby version
+# Built With
+-Ruby
+-Rails
+-PostgresQL
 
-* System dependencies
+## Getting Started
+- Make sure you have `Ruby` installed in your system
+- Clone this repository by running `git clone https://github.com/AlaaAlsalem/Blog_App.git ` in your command line.
+- then run `cd Blog_App` 
+- then `code . ` to open in vscode
 
-* Configuration
+- Run `bundle install`, to install all gems for the project
+- Run `db:migrate` to run the migration
 
-* Database creation
+## Usage
+run `rails s` to start the project locally.
 
-* Database initialization
+## Author 
 
-* How to run the test suite
+👤 **Aladdin Aslalem**
+- GitHub:[@AlaaAlsalem](https://github.com/AlaaAlsalem)
+- Linkedin:[AladdinAlsalem](https://www.linkedin.com/in/aladdin-alsalem/)
 
-* Services (job queues, cache servers, search engines, etc.)
 
-* Deployment instructions
 
-* ...
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## License
+
+This project is [MIT]
