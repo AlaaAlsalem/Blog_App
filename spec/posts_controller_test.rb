@@ -1,12 +1,12 @@
 require 'test_helper'
 
-class PostsControllerTest < ActionDispatch::IntegrationTest
-  test 'should get index' do
+RSpec.describe "Posts", type: :request do
+  describe 'GET /index' do
     get posts_index_url
     assert_response :success
   end
 
-  test 'should get show' do
+  describe 'GET /show' do
     get posts_show_url
     assert_response :success
   end
