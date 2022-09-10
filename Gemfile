@@ -29,7 +29,6 @@ gem 'stimulus-rails'
 # Build JSON APIs with ease [https://github.com/rails/jbuilder]
 gem 'jbuilder'
 
-
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: %i[mingw mswin x64_mingw jruby]
 
@@ -42,7 +41,7 @@ gem 'bootsnap', require: false
 # Use Active Storage variants [https://guides.rubyonrails.org/active_storage_overview.html#transforming-images]
 # gem "image_processing", "~> 1.2"
 group :development, :test do
-  gem "database_cleaner"
+  gem 'database_cleaner'
   gem 'rspec-rails'
 end
 
@@ -64,7 +63,7 @@ end
 
 group :test do
   # Use system testing [https://guides.rubyonrails.org/testing.html#system-testing]
-  gem 'capybara' ,'>= 3.26'
+  gem 'capybara', '>= 3.26'
   gem 'selenium-webdriver'
   gem 'webdrivers'
 end
